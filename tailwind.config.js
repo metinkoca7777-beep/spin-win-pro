@@ -1,0 +1,1 @@
+module.exports = { content: [ "./src/app/**/*.{js,jsx,ts,tsx}", "./src/components/**/*.{js,jsx,ts,tsx}", ], theme: { extend: { colors: { accent: "#c0392b", }, borderRadius: { xl: "18px", }, }, }, plugins: [], };

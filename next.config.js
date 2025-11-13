@@ -1,0 +1,1 @@
+const nextConfig = { basePath: '/project-2025/fine-dine/spin-win-pro', output: 'standalone', reactStrictMode: true }; module.exports = nextConfig;

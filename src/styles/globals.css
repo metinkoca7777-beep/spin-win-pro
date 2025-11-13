@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom styles (minimal, most handled by Tailwind) */
+html, body, #__next {
+  height: 100%;
+}
+
+.toast {
+  @apply fixed left-1/2 top-6 transform -translate-x-1/2 bg-white rounded-xl p-3 shadow-md opacity-0 transition-all duration-300 z-50;
+}
+.toast.show { @apply opacity-100 translate-y-0; }
